@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="https://cdn.midasbuy.com/images/UC.a998d4b9.png" type="image/x-icon">
+    <title>Portfolio - Compétences</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style2.css">
+    <div class="bouton"><a href="index.html"class="styled">Retournez à l'Accueil</a></button></div>
+</head>
+<body>
+    <script>
+        var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+e.target.classList.remove('animate');
+},700);
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+bubblyButtons[i].addEventListener('click', animateButton, false);
+}
+    </script>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1 class="titre2"><center>Mes compétences :</center></h1>
+    <br>
+    <p class="texte2">Mon tableau de compétences :</p>
+    <embed src="pdf/TabCompetences.pdf" type="application/pdf" width="100%" height="600px"/>
+    <div class="bouton">
+        <a href="index.html" class="styled">Retournez à l'Accueil</a>
+    </div>
+</body>
+</html>
